@@ -1,5 +1,5 @@
 # Regime-Adaptive Entropic Black-Litterman (RAEBL) Trading Strategy
-[![View Notebook](https://img.shields.io/badge/View%20Notebook-nbviewer-orange?logo=jupyter)]([https://nbviewer.org/github/<your-username>/raebl-strategy/blob/main/Analysis.ipynb](https://nbviewer.org/github/thezanyshowpian/Regime-Adaptive-Entropic-Black-Litterman-RAEBL-/blob/main/Analysis.ipynb))
+[![View Notebook](https://img.shields.io/badge/View%20Notebook-nbviewer-orange?logo=jupyter)](https://nbviewer.org/github/thezanyshowpian/Regime-Adaptive-Entropic-Black-Litterman-RAEBL-/blob/main/Analysis.ipynb)
 > **Author:** Md Adnan Khalid · Roll No. 250103060  
 > **Type:** Quantitative Algorithmic Trading · FEC Quant Recruitment Task 
 > **Period:** January 2018 – January 2025 · Monthly Rebalancing · Long-Only
