@@ -1,0 +1,28 @@
+# RAEBL Strategy — Python Dependencies
+# Python 3.10+ recommended
+# Install: pip install -r requirements.txt
+
+# ── Core numerical stack ───────────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# ── Machine learning & statistics ─────────────────────────────────────────────
+scikit-learn>=1.2.0       # Ledoit-Wolf covariance shrinkage
+hmmlearn>=0.3.0           # Gaussian Hidden Markov Model (Phase 2)
+statsmodels>=0.14.0       # Granger causality tests (Phase 2)
+
+# ── Data acquisition ──────────────────────────────────────────────────────────
+yfinance>=0.2.30          # Yahoo Finance OHLCV download (Phase 1)
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Network analysis ──────────────────────────────────────────────────────────
+networkx>=3.0             # Granger causality network plot (Phase 2, Cell 8)
+
+# ── Notebook environment ──────────────────────────────────────────────────────
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.0.0

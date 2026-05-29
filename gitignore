@@ -1,0 +1,108 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Jupyter Notebook ───────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ── Notebook output strips (optional — remove if you want outputs committed) ──
+# Uncomment below to strip all cell outputs before committing:
+# *.ipynb
+
+# ── Data & large files ────────────────────────────────────────────────────────
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+data/raw/
+data/processed/
+cache/
+
+# ── Generated plots (reproducible — regenerated on notebook run) ──────────────
+phase1_kalman_filter.png
+phase1_feature_dashboard.png
+phase1_correlation_matrices.png
+phase2_hmm_regimes.png
+phase2_hurst_exponent.png
+phase2_causality_network.png
+phase2_signals_confidence.png
+phase3_weights_parameters.png
+phase4_equity_turnover.png
+phase5_robustness.png
+phase6_equity_curve.png
+phase6_drawdown.png
+phase6_rolling_sharpe.png
+
+# ── LaTeX build artifacts ─────────────────────────────────────────────────────
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.blg
+*.bbl
+# Keep the source and PDF, ignore build debris:
+# methodology.pdf  ← commit this (reader-friendly)
+# methodology.tex  ← commit this (source)
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+*.key
+secrets.json
+config.local.py
